@@ -1,0 +1,35 @@
+/*We use mixins to create small reusable css code*/
+
+/*The at<size> will create the media queires for us*/
+@mixin atSmall {
+	@media (min-width: 576px){
+		@content;
+	}
+}
+
+@mixin atMedium {
+	@media (min-width: 768px){
+		@content;
+	}
+}
+
+@mixin atLarge {
+	@media (min-width: 992px){
+		@content;
+	}
+}
+
+@mixin atExtraLarge {
+	@media (min-width: 1200px){
+		@content;
+	}
+}
+
+@mixin clearfix {
+	/*This will clear the floats*/
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}

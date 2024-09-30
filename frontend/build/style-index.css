@@ -1,0 +1,139 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./css/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./css/style.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*Main Styles list of modules and base modules
+If you create a new css module, you must include it here (as import)
+*/
+/*From Colour Palette - https://colorhunt.co/palette/101433 */
+/*Crazy Pink Theme - lets see how this goes - https://colorhunt.co/palette/145074*/
+/*Tutorial chose #505962*/
+/*We use mixins to create small reusable css code*/
+/*The at<size> will create the media queires for us*/
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #323232;
+  /*background-color: $greyBlack; /*TEMP PLEASE REMOVE!!*/
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #d61d4e;
+}
+
+a:hover {
+  color: #ff0b55;
+}
+
+.add-color-main {
+  color: #ff0b55;
+}
+
+/*Remove Googles reCapture Badge*/
+.grecaptcha-badge {
+  display: none;
+}
+
+/*paginatelinks*/
+.paginatelinks {
+  padding: 1.5rem;
+}
+
+/*Global Bootstrap rule - adding 1 rem to all columns */
+[class*=col-] {
+  padding: 1rem;
+}
+
+hr.socket {
+  border-top: 0.2rem solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.self-centre-md {
+  margin: 0 auto;
+}
+
+p.dark-bg-padding {
+  background: #333333;
+  color: white;
+  padding: 15px;
+}
+
+.faq-a-card {
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border: solid #ff0b55;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+.faq-a-card__animate {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation: growDown 400ms ease-in-out forwards;
+          animation: growDown 400ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@-webkit-keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.faq-container {
+  margin-bottom: 5rem;
+}
+
+.faq-question {
+  color: #fff;
+  white-space: normal;
+  text-align: center;
+  background-color: rgba(18, 18, 18, 0.86);
+  font-size: 1rem;
+  box-shadow: 4px 4px 12px 3px rgba(0, 0, 0, 0.71);
+  cursor: pointer;
+  border: #000;
+  border-radius: 2rem;
+  padding: 0.5rem 1.1rem;
+  margin: 0.6rem;
+}
+@media (min-width: 768px) {
+  .faq-question {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,17 @@
+.faq-question {
+    color: #fff;
+    white-space: normal;
+    text-align: center;
+    background-color: rgba(18, 18, 18, 0.86);
+    font-size: 1rem;
+    box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.71);
+    cursor: pointer;
+    border: $mainBlack;
+    border-radius: 2rem;
+    padding: 0.5rem 1.1rem;
+    margin: .6rem;
+    @include atMedium(){
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+}

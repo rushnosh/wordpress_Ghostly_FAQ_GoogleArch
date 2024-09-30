@@ -1,0 +1,57 @@
+body{
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: $greyBlack;
+	/*background-color: $greyBlack; /*TEMP PLEASE REMOVE!!*/
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: $colorSecond;
+}
+
+a:hover {
+	color: $colorMain;
+}
+
+.add-color-main {
+	color: $colorMain;
+}
+
+/*Remove Googles reCapture Badge*/
+.grecaptcha-badge {
+	display:none;
+}
+
+/*paginatelinks*/
+.paginatelinks {
+	padding: 1.5rem;
+}
+
+/*Global Bootstrap rule - adding 1 rem to all columns */
+[class*="col-"] {
+	padding: 1rem;
+}
+
+hr.socket {
+	border-top: .2rem solid rgba($mainWhite, 0.2);
+	width: 100%;
+}
+
+.self-centre-md {
+	margin: 0 auto;
+}
+
+p.dark-bg-padding {
+	background: #333333;
+    color: white;
+    padding: 15px;
+}

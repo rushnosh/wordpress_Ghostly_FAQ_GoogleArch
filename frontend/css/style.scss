@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+/*Main Styles list of modules and base modules
+If you create a new css module, you must include it here (as import)
+*/
+@import "base/_veriables";
+@import "base/_mixins";
+@import "base/_global";
+
+//Modules below
+@import "modules/faq-a-card";
+@import "modules/faq-container";
+@import "modules/faq-question";
